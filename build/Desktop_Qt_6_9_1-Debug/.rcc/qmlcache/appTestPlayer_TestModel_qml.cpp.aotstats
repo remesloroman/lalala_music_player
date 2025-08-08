@@ -1,0 +1,12 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                ],
+                "filePath": "/home/romanremeslo/TestPlayer/TestModel.qml"
+            }
+        ],
+        "moduleId": "TestPlayer(appTestPlayer)"
+    }
+]

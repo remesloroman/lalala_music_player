@@ -1,0 +1,348 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "theme",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "accent",
+                        "line": 11
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 89,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 34
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 52
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 79
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 96
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 113
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 133
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 134
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 147
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 148
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 149
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 150
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 156
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "Cannot access value for name songList",
+                        "functionName": "width",
+                        "line": 165
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 187,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 167
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot access value for name imageSource",
+                        "functionName": "source",
+                        "line": 182
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 176
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 177
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 179
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 54,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 187
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 188
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 32,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 189
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot access value for name title",
+                        "functionName": "text",
+                        "line": 194
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name author",
+                        "functionName": "text",
+                        "line": 198
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 206
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 221
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 225
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 233
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 241
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 250
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 251
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 252
+                    }
+                ],
+                "filePath": "/home/romanremeslo/TestPlayer/Main.qml"
+            }
+        ],
+        "moduleId": "TestPlayer(appTestPlayer)"
+    }
+]

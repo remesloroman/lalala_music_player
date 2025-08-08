@@ -1,0 +1,11 @@
+--resource
+/home/romanremeslo/TestPlayer/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_TestPlayer.qrc
+--resource
+/home/romanremeslo/TestPlayer/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appTestPlayer_raw_qml_0.qrc
+/qt/qml/TestPlayer/Main.qml
+/qt/qml/TestPlayer/TestModel.qml
+/qt/qml/TestPlayer/ImageButton.qml
+/qt/qml/TestPlayer/LeftPanel.qml
+/qt/qml/TestPlayer/LeftPanelModel.qml
+/qt/qml/TestPlayer/MenuOverlay.qml
+/qt/qml/TestPlayer/Separator.qml

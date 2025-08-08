@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="/qt/qml/TestPlayer/">
+    <file alias="Main.qml">/home/romanremeslo/TestPlayer/Main.qml</file>
+    <file alias="TestModel.qml">/home/romanremeslo/TestPlayer/TestModel.qml</file>
+    <file alias="ImageButton.qml">/home/romanremeslo/TestPlayer/ImageButton.qml</file>
+    <file alias="LeftPanel.qml">/home/romanremeslo/TestPlayer/LeftPanel.qml</file>
+    <file alias="LeftPanelModel.qml">/home/romanremeslo/TestPlayer/LeftPanelModel.qml</file>
+    <file alias="MenuOverlay.qml">/home/romanremeslo/TestPlayer/MenuOverlay.qml</file>
+    <file alias="Separator.qml">/home/romanremeslo/TestPlayer/Separator.qml</file>
+    <file alias="assets/icons/Menu.png">/home/romanremeslo/TestPlayer/assets/icons/Menu.png</file>
+    <file alias="assets/icons/search.png">/home/romanremeslo/TestPlayer/assets/icons/search.png</file>
+    <file alias="assets/icons/back.png">/home/romanremeslo/TestPlayer/assets/icons/back.png</file>
+    <file alias="assets/icons/forward.png">/home/romanremeslo/TestPlayer/assets/icons/forward.png</file>
+    <file alias="assets/icons/play.png">/home/romanremeslo/TestPlayer/assets/icons/play.png</file>
+    <file alias="assets/icons/background.png">/home/romanremeslo/TestPlayer/assets/icons/background.png</file>
+    <file alias="assets/icons/internet.png">/home/romanremeslo/TestPlayer/assets/icons/internet.png</file>
+    <file alias="assets/icons/songs.png">/home/romanremeslo/TestPlayer/assets/icons/songs.png</file>
+    <file alias="assets/icons/playlists.png">/home/romanremeslo/TestPlayer/assets/icons/playlists.png</file>
+    <file alias="assets/icons/authors.png">/home/romanremeslo/TestPlayer/assets/icons/authors.png</file>
+    <file alias="assets/icons/albums.png">/home/romanremeslo/TestPlayer/assets/icons/albums.png</file>
+    <file alias="assets/icons/equalizer.png">/home/romanremeslo/TestPlayer/assets/icons/equalizer.png</file>
+  </qresource>
+</RCC>
+

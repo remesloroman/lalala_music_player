@@ -1,0 +1,100 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 6
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 12,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "Cannot access value for name open",
+                        "functionName": "x",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "Cannot access value for name open",
+                        "functionName": "opacity",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "Cannot access value for name open",
+                        "functionName": "visible",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "enabled",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 172,
+                        "errorMessage": "Cannot find name open",
+                        "functionName": "onClicked",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 33
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "",
+                        "functionName": "onReleased",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "onReleased",
+                        "line": 48
+                    }
+                ],
+                "filePath": "/home/romanremeslo/TestPlayer/MenuOverlay.qml"
+            }
+        ],
+        "moduleId": "TestPlayer(appTestPlayer)"
+    }
+]

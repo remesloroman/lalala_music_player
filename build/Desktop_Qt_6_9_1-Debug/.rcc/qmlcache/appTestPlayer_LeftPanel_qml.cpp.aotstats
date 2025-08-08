@@ -1,0 +1,148 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 13,
+                        "durationMicroseconds": 100,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 37,
+                        "durationMicroseconds": 73,
+                        "errorMessage": "",
+                        "functionName": "preferredHeight",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 61,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 31
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 57,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 32
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 29
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 325,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: conversion to QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 82
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 85
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 33,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name imageSource",
+                        "functionName": "source",
+                        "line": 93
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 49,
+                        "durationMicroseconds": 53,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 95
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "Cannot access value for name name",
+                        "functionName": "text",
+                        "line": 103
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 49,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 99
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 112
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "alignment",
+                        "line": 119
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 131
+                    }
+                ],
+                "filePath": "/home/romanremeslo/TestPlayer/LeftPanel.qml"
+            }
+        ],
+        "moduleId": "TestPlayer(appTestPlayer)"
+    }
+]

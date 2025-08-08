@@ -1,0 +1,11 @@
+module TestPlayer
+typeinfo appTestPlayer.qmltypes
+prefer :/qt/qml/TestPlayer/
+Main 1.0 Main.qml
+TestModel 1.0 TestModel.qml
+ImageButton 1.0 ImageButton.qml
+LeftPanel 1.0 LeftPanel.qml
+LeftPanelModel 1.0 LeftPanelModel.qml
+MenuOverlay 1.0 MenuOverlay.qml
+Separator 1.0 Separator.qml
+

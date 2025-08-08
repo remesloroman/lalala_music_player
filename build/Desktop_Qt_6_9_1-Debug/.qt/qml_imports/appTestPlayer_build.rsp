@@ -1,0 +1,14 @@
+-rootPath
+/home/romanremeslo/TestPlayer
+-cmake-output
+-output-file
+/home/romanremeslo/TestPlayer/build/Desktop_Qt_6_9_1-Debug/.qt/qml_imports/appTestPlayer_build.cmake
+-importPath
+/home/romanremeslo/TestPlayer/build/Desktop_Qt_6_9_1-Debug/TestPlayer
+-importPath
+/home/romanremeslo/TestPlayer/build/Desktop_Qt_6_9_1-Debug
+-importPath
+/home/romanremeslo/Qt/6.9.1/gcc_64/qml
+-qrcFiles
+/home/romanremeslo/TestPlayer/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/qmake_TestPlayer.qrc
+/home/romanremeslo/TestPlayer/build/Desktop_Qt_6_9_1-Debug/.qt/rcc/appTestPlayer_raw_qml_0.qrc

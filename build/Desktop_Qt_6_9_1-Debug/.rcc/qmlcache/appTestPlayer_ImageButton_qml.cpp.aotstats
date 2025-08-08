@@ -1,0 +1,44 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 211,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 13,
+                        "durationMicroseconds": 75,
+                        "errorMessage": "",
+                        "functionName": "fillMode",
+                        "line": 10
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 97,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 19
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 15
+                    }
+                ],
+                "filePath": "/home/romanremeslo/TestPlayer/ImageButton.qml"
+            }
+        ],
+        "moduleId": "TestPlayer(appTestPlayer)"
+    }
+]
