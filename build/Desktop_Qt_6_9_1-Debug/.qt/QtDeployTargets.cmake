@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appTestPlayer_FILE /home/romanremeslo/TestPlayer/build/Desktop_Qt_6_9_1-Debug/appTestPlayer)
-set(__QT_DEPLOY_TARGET_appTestPlayer_TYPE EXECUTABLE)

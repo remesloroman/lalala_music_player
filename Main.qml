@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Controls.Material
+import com.lalala.controllers.PlayerController
 
 Window {
     width: 800
@@ -44,6 +45,7 @@ Window {
         TabBar {
             id: bar
             background: null
+            currentIndex: 1
 
             anchors {
                 left: menuButton.right
@@ -54,7 +56,7 @@ Window {
                 leftMargin: 10
             }
 
-            TabButton {        
+            TabButton {
                 Text {
                     text: qsTr("Internet")
 
@@ -64,7 +66,7 @@ Window {
 
                     font {
                         pixelSize: 15
-                        family: "serif"
+                        family: "monospace"
                         italic: true
                         bold: true
                     }
@@ -81,7 +83,7 @@ Window {
 
                     font {
                         pixelSize: 15
-                        family: "serif"
+                        family: "monospace"
                         italic: true
                         bold: true
                     }
@@ -98,7 +100,7 @@ Window {
 
                     font {
                         pixelSize: 15
-                        family: "serif"
+                        family: "monospace"
                         italic: true
                         bold: true
                     }
@@ -115,7 +117,7 @@ Window {
 
                     font {
                         pixelSize: 15
-                        family: "serif"
+                        family: "monospace"
                         italic: true
                         bold: true
                     }
@@ -138,7 +140,6 @@ Window {
     }
 
     Rectangle {
-
         id: mainSection
 
         color: "#94B4C1"
@@ -150,64 +151,35 @@ Window {
             bottom: bottombar.top
         }
 
-        ListView {
-            id: songList
-
+        StackLayout {
             anchors.fill: parent
 
-            model: TestModel {}
-            delegate: Rectangle {
-                required property string imageSource
-                required property string title
-                required property string author
+            currentIndex: bar.currentIndex
 
-                height: 60
-                width: songList.width
+            Item {
+                id: internetTab
 
-                color: mouseArea.containsMouse ? "#80ECEFCA" : "transparent"
+                Text { text: "It's internet tab" }
+            }
 
-                Image {
-                    id: songImage
+            Item {
+                id: songsTab
+                SongsView { anchors.fill: parent }
+            }
 
-                    width: 45
-                    height: 45
+            Item {
+                id: playlistsTab
 
-                    anchors {
-                        left: parent.left
-                        top: parent.top
-                        margins: 10
-                        verticalCenter: parent.verticalCenter
-                    }
+                Text { text: "It's playlists tab" }
+            }
 
-                    source: imageSource
-                }
+            Item {
+                id: authorsTab
 
-                Column {
-                    anchors {
-                        left: songImage.right
-                        top: parent.top
-                        right: parent.right
-                        margins: 5
-                    }
-
-                    Text {
-                        text: title
-                    }
-
-                    Text {
-                        text: author
-                    }
-                }
-
-                MouseArea {
-                    id: mouseArea
-                    hoverEnabled: true
-
-                    anchors.fill: parent
-                }
-
+                Text { text: "It's authors tab" }
             }
         }
+
     }
 
     Rectangle {
@@ -227,6 +199,10 @@ Window {
                 height: 50
 
                 source: "assets/icons/back.png"
+
+                onClicked: {
+                    PlayerController.switchToPreviousSong()
+                }
             }
 
             ImageButton {
@@ -234,7 +210,11 @@ Window {
                 width: 60
                 height: 60
 
-                source: "assets/icons/play.png"
+                source: PlayerController.playing ? "assets/icons/pause.png" : "assets/icons/play.png"
+
+                onClicked: {
+                    PlayerController.playPause()
+                }
             }
 
             ImageButton {
@@ -243,6 +223,10 @@ Window {
                 height: 50
 
                 source: "assets/icons/forward.png"
+
+                onClicked: {
+                    PlayerController.switchToNextSong()
+                }
             }
         }
 

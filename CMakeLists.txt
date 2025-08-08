@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Quick)
 find_package(Qt6 REQUIRED COMPONENTS Core)
+find_package(Qt6 REQUIRED COMPONENTS Multimedia)
 
 qt_standard_project_setup(REQUIRES 6.8)
 
@@ -25,6 +26,7 @@ qt_add_qml_module(appTestPlayer
     assets/icons/back.png
     assets/icons/forward.png
     assets/icons/play.png
+    assets/icons/pause.png
     assets/icons/background.png
     assets/icons/internet.png
     assets/icons/songs.png
@@ -33,6 +35,11 @@ qt_add_qml_module(appTestPlayer
     assets/icons/albums.png
     assets/icons/equalizer.png
 
+    assets/audio/air_on_the_g_string.mp3
+    assets/audio/eine_kleine_nachtmusik.mp3
+    assets/audio/reprezentuje_biede.mp3
+    assets/audio/symphony_no_5.mp3
+
     QML_FILES TestModel.qml
     QML_FILES ImageButton.qml
     QML_FILES LeftPanel.qml
@@ -40,6 +47,8 @@ qt_add_qml_module(appTestPlayer
     QML_FILES MenuOverlay.qml
     QML_FILES Separator.qml
     SOURCES audioinfo.h audioinfo.cpp
+    SOURCES playercontroller.h playercontroller.cpp
+    QML_FILES SongsView.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -57,6 +66,7 @@ target_link_libraries(appTestPlayer
     PRIVATE Qt6::Quick
 )
 target_link_libraries(appTestPlayer PRIVATE Qt6::Core)
+target_link_libraries(appTestPlayer PRIVATE Qt6::Multimedia)
 
 include(GNUInstallDirs)
 install(TARGETS appTestPlayer
