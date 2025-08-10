@@ -20,17 +20,17 @@ PlayerController::PlayerController(QObject *parent)
     addAudio("Eine Kleine Nachtmusik",
              "Wolfgang Amadeus Mozart",
              QUrl("assets/audio/eine_kleine_nachtmusik.mp3"),
-             QUrl("assets/images/song_1.jpg"));
+             QUrl("../../assets/images/song_1.jpg"));
 
     addAudio("Symphony No. 5",
              "Ludwig Van Beethoven",
              QUrl("assets/audio/symphony_no_5.mp3"),
-             QUrl("assets/images/song_2.jpg"));
+             QUrl("../../assets/images/song_2.jpg"));
 
     addAudio("Air on the F String",
              "Johann Sebastian Bach",
              QUrl("assets/audio/air_on_the_g_string.mp3"),
-             QUrl("assets/images/song_3.jpg"));
+             QUrl("../../assets/images/song_3.jpg"));
 
 }
 
@@ -94,9 +94,9 @@ QHash<int, QByteArray> PlayerController::roleNames() const
     QHash<int, QByteArray> result;
 
     result[AudioTitleRole] = "audioTitle";
-    result[AudioAuthorNameRole] = "AudioAuthorName";
-    result[AudioSourceRole] = "AudioSource";
-    result[AudioTitleRole] = "audioTitle";
+    result[AudioAuthorNameRole] = "audioAuthorName";
+    result[AudioSourceRole] = "audioSource";
+    result[AudioImageSourceRole] = "audioImageSource";
 
     return result;
 }

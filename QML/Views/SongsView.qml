@@ -1,4 +1,5 @@
 import QtQuick
+import com.lalala.controllers.PlayerController
 
 Item {
     ListView {
@@ -6,11 +7,12 @@ Item {
 
         anchors.fill: parent
 
-        model: TestModel {}
+        model: PlayerController
         delegate: Rectangle {
-            required property string imageSource
-            required property string title
-            required property string author
+            required property string audioTitle
+            required property string audioAuthorName
+            required property url audioSource
+            required property url audioImageSource
 
             height: 60
             width: songList.width
@@ -30,7 +32,7 @@ Item {
                     verticalCenter: parent.verticalCenter
                 }
 
-                source: imageSource
+                source: audioImageSource
             }
 
             Column {
@@ -42,11 +44,11 @@ Item {
                 }
 
                 Text {
-                    text: title
+                    text: audioTitle
                 }
 
                 Text {
-                    text: author
+                    text: audioAuthorName
                 }
             }
 

@@ -18,7 +18,7 @@ qt_add_qml_module(appTestPlayer
     URI TestPlayer
     VERSION 1.0
     QML_FILES
-        Main.qml
+        QML/Main.qml
 
     RESOURCES
     assets/icons/Menu.png
@@ -40,15 +40,19 @@ qt_add_qml_module(appTestPlayer
     assets/audio/reprezentuje_biede.mp3
     assets/audio/symphony_no_5.mp3
 
-    QML_FILES TestModel.qml
-    QML_FILES ImageButton.qml
-    QML_FILES LeftPanel.qml
-    QML_FILES LeftPanelModel.qml
-    QML_FILES MenuOverlay.qml
-    QML_FILES Separator.qml
+    assets/images/song_1.jpg
+    assets/images/song_2.jpg
+    assets/images/song_3.jpg
+
+    QML_FILES QML/Models/TestModel.qml
+    QML_FILES QML/Controls/ImageButton.qml
+    QML_FILES QML/Panels/LeftPanel.qml
+    QML_FILES QML/Models/LeftPanelModel.qml
+    QML_FILES QML/Panels/MenuOverlay.qml
+    QML_FILES QML/Controls/Separator.qml
     SOURCES audioinfo.h audioinfo.cpp
     SOURCES playercontroller.h playercontroller.cpp
-    QML_FILES SongsView.qml
+    QML_FILES QML/Views/SongsView.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

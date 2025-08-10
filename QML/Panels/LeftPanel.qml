@@ -1,6 +1,8 @@
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls
+import "../Controls"
+import "../Models"
 
 Rectangle {
     id: root
@@ -31,7 +33,7 @@ Rectangle {
                 width: parent.height*0.9
                 height: parent.height*0.9
 
-                source: "assets/icons/background.png"
+                source: "../../assets/icons/background.png"
             }
         }
 

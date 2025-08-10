@@ -3,6 +3,8 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Controls.Material
 import com.lalala.controllers.PlayerController
+import "Controls"
+import "Views"
 
 Window {
     width: 800
@@ -29,7 +31,7 @@ Window {
             id: menuButton
             width: 40
             height: 40
-            source: "assets/icons/Menu.png"
+            source: "../assets/icons/Menu.png"
 
             anchors {
                 left: parent.left
@@ -129,7 +131,7 @@ Window {
             id: searchButton
             width: 40
             height: 40
-            source: "assets/icons/search.png"
+            source: "../assets/icons/search.png"
 
             anchors {
                 right: parent.right
@@ -198,7 +200,7 @@ Window {
                 width: 50
                 height: 50
 
-                source: "assets/icons/back.png"
+                source: "../assets/icons/back.png"
 
                 onClicked: {
                     PlayerController.switchToPreviousSong()
@@ -210,7 +212,7 @@ Window {
                 width: 60
                 height: 60
 
-                source: PlayerController.playing ? "assets/icons/pause.png" : "assets/icons/play.png"
+                source: PlayerController.playing ? "../assets/icons/pause.png" : "../assets/icons/play.png"
 
                 onClicked: {
                     PlayerController.playPause()
@@ -222,7 +224,7 @@ Window {
                 width: 50
                 height: 50
 
-                source: "assets/icons/forward.png"
+                source: "../assets/icons/forward.png"
 
                 onClicked: {
                     PlayerController.switchToNextSong()
